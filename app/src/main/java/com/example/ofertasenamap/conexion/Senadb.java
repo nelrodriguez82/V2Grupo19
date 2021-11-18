@@ -18,8 +18,24 @@ public class Senadb extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE "+TABLE_PROGRAMAS+"(idprograma INTEGER PRIMARY KEY AUTOINCREMENT," +
+                "nombreprograma TEXT NOT NULL," +
+                "duracion TEXT)");
+        db.execSQL("CREATE TABLE regionales(idregional INTEGER PRIMARY KEY," +
+                "nombreregional TEXT NOT NULL)");
+        db.execSQL("CREATE TABLE centrosformacion(idcentro INTEGER PRIMARY KEY," +
+                "nombrecentro TEXT NOT NULL," +
+                "idregional INTEGER)");
+        db.execSQL("CREATE TABLE centroprograma(idcentroprog INTEGER PRIMARY KEY," +
+                "idcentro INTEGER," +
+                "idprograma INTEGER)");
+        db.execSQL("CREATE TABLE usuarios(idusuario INTEGER PRIMARY KEY AUTOINCREMENT," +
+                "documento TEXT NOT NULL," +
                 "nombre TEXT NOT NULL," +
-                "duracion INTEGER)");
+                "apellidos TEXT NOT NULL," +
+                "correo TEXT NOT NULL," +
+                "telefono TEXT NOT NULL," +
+                "contrasena TEXT NOT NULL," +
+                "estado TEXT)");
     }
 
     @Override

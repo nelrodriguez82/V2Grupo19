@@ -14,7 +14,11 @@
             android:exported="true" >
 
         </activity>
+        <activity
+            android:name=".Tarjetas"
+            android:exported="true" >
 
+        </activity>
         <activity
             android:name=".CentroFormacion"
             android:exported="true" >
