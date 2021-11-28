@@ -36,6 +36,11 @@ public class Senadb extends SQLiteOpenHelper {
                 "telefono TEXT NOT NULL," +
                 "contrasena TEXT NOT NULL," +
                 "estado TEXT)");
+        db.execSQL(" CREATE TABLE productos ("+
+                "codigop INTEGER PRIMARY KEY AUTOINCREMENT," +
+                "nombrep TEXT NOT NULL,"+
+                "precio DECIMAL NOT NULL,"+
+                "descripcion TEXT NOT NULL)");
     }
 
     @Override

@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OfertaSenaMap">
         <activity
+            android:name=".CardsItems"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".ProgramaFormacion"
             android:exported="true" >
 

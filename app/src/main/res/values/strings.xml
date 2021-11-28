@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">OfertaSenaMap</string>
+    <string name="btnBorrar">Borrar</string>
+    <string name="btnActualizar">Actualizar</string>
+    <string name="btnVolver">Volver al inicio</string>
+
 </resources>

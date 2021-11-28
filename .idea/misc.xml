@@ -3,13 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.1125" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/activity_cards_items.xml" value="0.1" />
         <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/activity_centro_formacion.xml" value="0.1" />
         <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/activity_programa_formacion.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/activity_prueba_dialog_menu.xml" value="0.1" />
         <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/activity_tarjetas.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/custom_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/fragment_actualizar_articulo.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/fragment_actualizar_programa.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/fragment_crear_articulo.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/fragment_crear_programa.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/fragment_ver_articulo.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/fragment_ver_programa.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/fragment_volver_inicio.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/list_articulos.xml" value="0.1" />
         <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/list_element.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Documents/GitHub/V2Grupo19/app/src/main/res/layout/list_programas.xml" value="0.15" />
       </map>
     </option>
   </component>

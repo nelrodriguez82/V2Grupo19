@@ -29,7 +29,14 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(MainActivity.this, "Error al crear la base de datos", Toast.LENGTH_SHORT).show();
                 }
-                login(view);
+               // login(view);
+                Dialogo d = new Dialogo(MainActivity.this,"Aqui va el titulo","Hola gente", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getApplicationContext(), Login.class);
+                        startActivity(intent);
+                    }
+                });
             }
         });
 
