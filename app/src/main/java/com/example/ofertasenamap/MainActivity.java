@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -12,14 +14,15 @@ import android.widget.Toast;
 import com.example.ofertasenamap.conexion.Senadb;
 
 public class MainActivity extends AppCompatActivity {
+    Button btnRegistro;
     Button btnLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnLogin = findViewById(R.id.btnRegistro);
-        btnLogin.setOnClickListener(new View.OnClickListener() {
+        btnRegistro = findViewById(R.id.btnRegistro);
+        btnRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Senadb conexion = new Senadb(MainActivity.this);
@@ -39,11 +42,18 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
-
+        btnLogin = findViewById(R.id.btnLogin);
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               login(view);
+            }
+        });
 
     }
     public void login(View vi){
         Intent vista1=new Intent(this, Login.class);
         startActivity(vista1);
     }
+
 }

@@ -1,26 +1,25 @@
 package com.example.ofertasenamap;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class CardsItems extends AppCompatActivity {
+public class CentrosItems extends AppCompatActivity {
 
 
-    private FloatingActionButton crearArticulo;
+    private FloatingActionButton crearCentro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cards_items);
+        setContentView(R.layout.activity_centros_items);
     }
     public void switchWindow(Fragment f){
         FragmentTransaction fTran = getSupportFragmentManager().beginTransaction();

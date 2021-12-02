@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "678466455555",
+    "project_id": "senamap-4b3a8",
+    "storage_bucket": "senamap-4b3a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678466455555:android:aac70cc3c1deb5de3fa636",
+        "android_client_info": {
+          "package_name": "com.example.ofertasenamap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678466455555-fejmctht75acphh3skhomlqphpbv7deu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ofertasenamap",
+            "certificate_hash": "83484480d091316f6be7ecdf531b2c823bb41c7b"
+          }
+        },
+        {
+          "client_id": "678466455555-3jkmbef356i2egaf1p5nqfgo85c9e90j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB930tsGiqvIKHlISUxUIpAp-bYX4u8W-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678466455555-3jkmbef356i2egaf1p5nqfgo85c9e90j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
